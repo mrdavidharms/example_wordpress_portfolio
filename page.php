@@ -9,11 +9,11 @@
       <h1><?php the_title(); ?></h1>
       <p><?php the_content(); ?></p>
 
-	<?php endwhile; else : ?>
+  	<?php endwhile; else : ?>
 
-	  <p><?php _e( 'Sorry, no results found.', 'treehouse-portfolio' ); ?></p>
+  	  <p><?php _e( 'Sorry, page found.', 'treehouse-portfolio' ); ?></p>
 
-	<?php endif; ?>
+  	<?php endif; ?>
 
     </div>
   </div>
